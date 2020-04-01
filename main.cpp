@@ -47,8 +47,10 @@ int main()
     emoticons->add(":(","Frown");
     emoticons->add(":()","Monkey");
 
-    emoticons->display_backward();
+    emoticons->display_forward();
     languages->display_forward();
+    emoticons->display_backward();
+    languages->display_backward();
 
 
 
